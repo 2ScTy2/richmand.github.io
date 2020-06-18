@@ -1,0 +1,120 @@
+body{
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.navbar {
+    background:white;
+    padding: 20px   ;
+}
+
+.navbar-brand {
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+    line-height: 50px;
+
+}
+.navbar-brand img{
+    object-fit: cover;
+    width: 500px;
+    height:100px;
+}
+
+.nav-item a {
+    margin-right: 20px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.nav-item a:hover {
+    border-bottom: solid black 2px;
+}
+.bg-img{
+    background-image: url("../img/WhatsApp Image 2020-06-12 at 21.29.38.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+
+}
+.info {
+    margin-top: 20px    ;
+    display: flex;
+}
+.info .bg{
+    width: 50%;
+    position: relative;
+}
+.info .bg img{
+    width: 100%;
+}
+.info .text {
+    width: 400px;
+    position: absolute;
+    top: 70px;
+    color: white;
+    left: 100px;
+    line-height: 40px;
+    font-size: 30px;
+}
+.info .short{
+    width: 500px;
+    top: 150px;
+    font-size: 40px;
+}
+.info .dog{
+    width: 50%;
+    height: 500px;
+}
+.info-right{
+    display: flex;
+}
+.info-right .short{
+    width: 500px;
+    top: 170px;
+    font-size: 40px;
+}
+.info-right .bg{
+    position: relative;
+    right: 0;
+    width: 50%;
+
+}
+.info-right .bg img{
+    width: 100%;
+}
+.info-right .text {
+    width: 400px;
+    position: absolute;
+    top: 70px;
+    color: white;
+    right: 150px;
+    line-height: 40px;
+    font-size: 30px;
+}
+
+.info-right .dog{
+    width: 50%;
+    height: 500px;
+}
+.info-right .short{
+    width: 500px;
+    top: 150px;
+    font-size: 40px;
+}
+.footer{
+    background: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer p{
+    color: white;
+}
+.footer img{
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
